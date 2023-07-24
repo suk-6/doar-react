@@ -12,7 +12,7 @@
     "clean": "rimraf dist *.tsbuildinfo node_modules public storybook-static .rollup.cache",
     "lint": "eslint --ignore-path .eslintignore . --ext ts --ext tsx --ext js --ext jsx",
     "lint:fix": "yarn format & yarn lint --fix",
-    "storybook": "start-storybook -c .storybook -p 9001",
+    "storybook": "start-storybook -c .storybook -p 20001",
     "build-storybook": "build-storybook -o public",
     "serve-storybook": "npx http-server public",
     "type-build": "tsc",

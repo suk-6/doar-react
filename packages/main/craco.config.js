@@ -25,4 +25,7 @@ module.exports = {
             return webpackConfig;
         },
     },
+    devServer: {
+        port: 20002,
+    },
 };
