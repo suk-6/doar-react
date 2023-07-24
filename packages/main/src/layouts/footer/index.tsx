@@ -13,26 +13,26 @@ const Footer = () => {
             <StyledFooterRight>
                 <StyledFooterNav>
                     <StyledFotterNavLink path="https://themeforest.net/licenses/standard">
-                        Licenses
+                        라이센스
                     </StyledFotterNavLink>
                     <StyledFotterNavLink path="/">
-                        Change Log
+                        버전 History
                     </StyledFotterNavLink>
                     <StyledFotterNavLink path="https://hasthemes.com/contact-us/">
-                        Get Help
+                        도움말
                     </StyledFotterNavLink>
                 </StyledFooterNav>
             </StyledFooterRight>
             <StyledFooterLeft>
-                <span>&copy; Doar {new Date().getFullYear()} </span>
+                <span>&copy; ZIOGLE {new Date().getFullYear()} </span>
                 <span className="copright-link">
-                    MADE WITH <Heart size="24" /> BY{"  "}
+                    CREATED <Heart size="24" /> BY{"  "}
                     <a
-                        href="https://themeforest.net/user/bootxperts/portfolio"
+                        href="https://www.zioyou.com"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        BootXperts
+                        ZIOGLE
                     </a>
                 </span>
             </StyledFooterLeft>

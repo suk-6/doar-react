@@ -3,7 +3,6 @@ import { useState, useCallback, useEffect } from "react";
 import { Search, Menu, X, ArrowLeft } from "react-feather";
 import { Navbar, Button } from "@doar/components";
 import { menuData } from "@doar/shared/data";
-import MessageDropdown from "../../components/header/message-dropdown";
 import NotificationDropdown from "../../components/header/notification-dropdown";
 import ProfileDropdown from "../../components/header/profile-dropdown";
 import NavSearch from "../../components/header/nav-search";
@@ -160,9 +159,6 @@ const Header = ({ hasSidebar, sidebarLayout }: IProps) => {
                         >
                             <Search className="header-icon" />
                         </Button>
-                    </StyledNavbarElement>
-                    <StyledNavbarElement ml={["8px", "15px"]}>
-                        <MessageDropdown />
                     </StyledNavbarElement>
                     <StyledNavbarElement ml={["8px", "15px"]}>
                         <NotificationDropdown />
